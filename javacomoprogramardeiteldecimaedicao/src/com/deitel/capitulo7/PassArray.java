@@ -11,7 +11,7 @@ public class PassArray {
 	}
 
 	modifyArray(array);
-	modifyArrayTeste(array);
+
 	System.out.printf("%n%nThe values of the modified array are:%n");
 
 	for (int value : array) {
@@ -36,4 +36,5 @@ public class PassArray {
 	element *= 2;
 	System.out.printf("Value of element in modifyElement: %d%n", element);
     }
+
 }
