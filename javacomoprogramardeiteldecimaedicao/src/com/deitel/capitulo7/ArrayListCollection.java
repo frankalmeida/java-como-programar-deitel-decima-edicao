@@ -5,15 +5,15 @@ import java.util.ArrayList;
 public class ArrayListCollection {
 
     public static void main(String[] args) {
-	ArrayList<String> items = new ArrayList<String>();
+	ArrayList<String> items = new ArrayList<>();
 
 	items.add("red");
 	items.add(0, "yellow");
 
 	System.out.print("Display list contents with counter-controlled loop:");
 
-	for (int i = 0; i < items.size(); i++) {
-	    System.out.printf(" %s", items.get(i));
+	for (String item : items) {
+	    System.out.printf(" %s", item);
 	}
 
 	display(items, "%nDisplay list contents with enhanced for statement:");

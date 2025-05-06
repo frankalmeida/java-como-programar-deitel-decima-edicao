@@ -1,7 +1,5 @@
 package com.deitel.capitulo5;
 
-import java.util.Iterator;
-
 public class BreakTest {
 	public static void main(String[] args) {
 		int count;

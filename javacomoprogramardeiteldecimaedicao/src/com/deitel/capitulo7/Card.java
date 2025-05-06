@@ -10,6 +10,7 @@ public class Card {
 	this.suit = cardSuit;
     }
 
+    @Override
     public String toString() {
 	return face + " of " + suit;
     }

@@ -7,7 +7,7 @@ public class Craps {
 
     private enum Status {
 	CONITNUE, WON, LOST
-    };
+    }
 
     private static final int SNAKE_EYES = 2;
     private static final int TREY = 3;
@@ -53,7 +53,7 @@ public class Craps {
 
 	if (gameStatus == Status.WON) {
 	    System.out.println("Player wins");
-	    ;
+
 	} else {
 	    System.out.println("Player loses");
 	}

@@ -1,7 +1,5 @@
 package com.deitel.capitulo7;
 
-import java.util.Iterator;
-
 public class EnhancedForTest {
     public static void main(String[] args) {
 	int[] array = { 87, 68, 94, 100, 83, 78, 85, 91, 76, 87 };

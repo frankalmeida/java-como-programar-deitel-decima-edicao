@@ -13,9 +13,9 @@ public class InitArray2 {
     }
 
     public static void outputArray(int[][] array) {
-	for (int row = 0; row < array.length; row++) {
-	    for (int column = 0; column < array[row].length; column++) {
-		System.out.printf("%d ", array[row][column]);
+	for (int[] element : array) {
+	    for (int column = 0; column < element.length; column++) {
+		System.out.printf("%d ", element[column]);
 	    }
 
 	    System.out.println();

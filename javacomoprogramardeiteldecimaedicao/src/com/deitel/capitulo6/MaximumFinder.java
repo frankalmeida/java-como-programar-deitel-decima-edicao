@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MaximumFinder {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in).useLocale(Locale.US);
-		;
+
 
 		System.out.print("Enter three floating-point values separated by spaces: ");
 		double number1 = input.nextDouble();
