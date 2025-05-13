@@ -9,7 +9,7 @@ public class Employee2 {
 	this.firstName = firstName;
 	this.lastName = lastName;
 
-	++count; // incrementa contagem estática de empregadosÿ
+	++count; // incrementa contagem estática de empregados
 	System.out.printf("Employee constructor: %s %s; count = %d%n", firstName, lastName, count);
     }
 
