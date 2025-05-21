@@ -1,13 +1,12 @@
 package com.deitel.capitulo10;
 
-public abstract class Employee {
+public abstract class Employee implements Payable {
 
     private final String firstName;
     private final String lastName;
     private final String socialSecurityNumber;
 
     public Employee(String firstName, String lastName, String socialSecurityNumber) {
-	super();
 	this.firstName = firstName;
 	this.lastName = lastName;
 	this.socialSecurityNumber = socialSecurityNumber;
@@ -29,7 +28,4 @@ public abstract class Employee {
     public String toString() {
 	return String.format("%s %s%nsocial security number: %s", getFirstName(), getLastName(), getSocialSecurityNumber());
     }
-
-    public abstract double earnings();
-
 }
